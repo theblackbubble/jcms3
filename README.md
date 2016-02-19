@@ -16,7 +16,7 @@ way that you want.
 Choose one of the following options:
 
 1. Download the latest stable release from
-   [joomgap.com](http://www.joomgap.com/joomgap-boilerplate2.html).
+   [joomgap.com](http://www.joomgap.com/joomgap-boilerplate.html).
 2. Clone the git repo — `git clone
    https://github.com/JoomGap/JGBoilerplate.git` - and checkout the
    [tagged release](https://github.com/JoomGap/JGBoilerplate2/releases)
@@ -28,18 +28,13 @@ Choose one of the following options:
 
 	NOTE: node_modules folder is not included. It must be copied from other Ionic 2 project.
 
-## How to integrate JG Boilerplate with Joomla! CMS
+## How to integrate JG Boilerplate 2 with Joomla! CMS
 
-JG Boilerplate includes [JoomGap Simple Library](https://github.com/JoomGap/JGSimple) to integrate Joomla! CMS.
+JG Boilerplate 2 includes [JoomGap Simple Library 2](https://github.com/JoomGap/JGSimple2) to integrate Joomla! CMS.
 
 A call to Joomla! can be simply implemented in this way:
 
-	q = jgSimpleApi.get(url, params).$promise;
-	q.then(function(response) {
-		if ( (response) && (response.success) ) {
-			console.log(response.data);
-		}
-	}
+	...
 	
 ## Concerning to security measures
 
@@ -51,7 +46,7 @@ In a Cordoba/PhoneGap mobile app, a mobile brower speaks with a web server with 
 - Web server
 - Joomla! CMS
 
-> JG Boilerplater is mainly oriented for development. So, a permissive security policy has been implemented.
+> JG Boilerplater 2 is mainly oriented for development. So, a permissive security policy has been implemented.
 
 ### Production security policy
 
