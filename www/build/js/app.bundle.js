@@ -3222,12 +3222,15 @@
 	            // For example, we might change the StatusBar color. This one below is
 	            // good for dark backgrounds and light text:
 	            // StatusBar.setStyle(StatusBar.LIGHT_CONTENT)
+	            // Angular 2 is running in the development mode. Call enableProdMode()
+	            // to enable the production mode.
 	        });
 	    }
 	    MyApp = __decorate([
 	        ionic_1.App({
 	            template: '<ion-nav [root]="rootPage"></ion-nav>',
-	            config: {} // http://ionicframework.com/docs/v2/api/config/Config/
+	            // http://ionicframework.com/docs/v2/api/config/Config/
+	            config: {}
 	        }), 
 	        __metadata('design:paramtypes', [(typeof (_a = typeof ionic_1.Platform !== 'undefined' && ionic_1.Platform) === 'function' && _a) || Object])
 	    ], MyApp);
