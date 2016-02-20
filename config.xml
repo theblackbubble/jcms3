@@ -40,6 +40,7 @@
     <preference name="SplashScreen" value="splash" />
    	<preference name="ShowSplashScreenSpinner" value="false"/>
 	<preference name="AutoHideSplashScreen" value="true" />  
+	<preference name="FadeSplashScreen" value="false"/>
 	
     <!-- Ionic Framework -->
     <preference name="UIWebViewBounce" value="false" />
