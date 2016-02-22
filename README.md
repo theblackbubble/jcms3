@@ -26,7 +26,9 @@ Choose one of the following options:
 5. Copy the file to your mobile phone and install it.
 6. Have fun!
 
-	NOTE: node_modules folder is not included. It must be copied from other Ionic 2 project.
+	NOTE: node_modules folder is not included. It must be copied from other Ionic 2 project. For instance:
+	
+	ionic start cutePuppyPics --v2
 
 ## How to integrate JG Boilerplate 2 with Joomla! CMS
 
