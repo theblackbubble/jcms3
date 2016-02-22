@@ -14,6 +14,6 @@
     "strip-sourcemap-loader": "0.0.1",
     "typescript": "1.7.5"
   },
-  "name": "cutepuppypics",
-  "description": "cutePuppyPics: An Ionic project"
+  "name": "jgboilerplate2",
+  "description": "A JoomGap starter project to create a hybrid mobile app for Joomla! CMS, powered by Cordova/PhoneGap, AngularJS 2 and Ionic 2."
 }
