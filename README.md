@@ -82,14 +82,18 @@ JG Boilerplate opens connections via [JSON-P](http://en.wikipedia.org/wiki/JSONP
   * Cordoba/PhoneGap project
   * PhoneGap (iOS / Android / Windows)
   * [PhoneGap build](https://build.phonegap.com)-ready configuration
-  * AngularJS
-  * AngularJS Animate
-  * AngularJS Resource
-  * AngularJS Sanitize
-  * AngularJS UI Router
+  * AngularJS 2 - Beta
+  * Ionic Framwork 2 - Beta
   * [JoomGap Simple Library](https://github.com/JoomGap/JGSimple)
-  * Ionic Framworks
-  * ngCordova
+  * awesome-typescript-loader
+  * es6-promise
+  * es6-shim
+  * ionicons
+  * reflect-metadata
+  * rxjs
+  * strip-sourcemap-loader
+  * typescript
+  * zone.js
 
 ## Useful Commands
 
