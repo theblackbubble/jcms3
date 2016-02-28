@@ -8,7 +8,7 @@ philosophy or framework, so you're free to architect your code in the
 way that you want.
 
 * Homepage: [http://www.joomgap.com/](http://www.joomgap.com/)
-* Source: [https://github.com/JoomGap/JGBoilerplate](https://github.com/JoomGap/JGBoilerplate2)
+* Source: [https://github.com/JoomGap/JGBoilerplate2](https://github.com/JoomGap/JGBoilerplate2)
 * Twitter: [@JoomGap](https://twitter.com/JoomGap)
 
 ## Quick start
@@ -18,7 +18,7 @@ Choose one of the following options:
 1. Download the latest stable release from
    [joomgap.com](http://www.joomgap.com/joomgap-boilerplate.html).
 2. Clone the git repo — `git clone
-   https://github.com/JoomGap/JGBoilerplate.git` - and checkout the
+   https://github.com/JoomGap/JGBoilerplate2.git` - and checkout the
    [tagged release](https://github.com/JoomGap/JGBoilerplate2/releases)
    you'd like to use.
 3. Create a new App in [PhoneGap build](https://build.phonegap.com).
@@ -32,7 +32,7 @@ Choose one of the following options:
 
 ## How to integrate JG Boilerplate 2 with Joomla! CMS
 
-JG Boilerplate 2 includes [JoomGap Simple Library 2](https://github.com/JoomGap/JGSimple2) to integrate Joomla! CMS.
+JG Boilerplate 2 includes [JoomGap Simple Library](https://github.com/JoomGap/JGSimple) to integrate Joomla! CMS.
 
 A call to Joomla! can be simply implemented in this way:
 
@@ -96,36 +96,22 @@ JG Boilerplate opens connections via [JSON-P](http://en.wikipedia.org/wiki/JSONP
 Start a local development server for app dev/testing.
 
 	ionic serve	
-	
-Compile Saas to build stylesheets.
-
-	gulp
-	
-Updating Ionic. Update bower.json, driftyco/ionic-bower#....
-
-	gulp install
 
 ## Mobile operating system support
 
 * Android 4 and 5
 * Apple iOS 8 and 9
 
-*This doesn't mean that JoomGap Boilerplate cannot be used in older OS,
+*This doesn't mean that JoomGap Boilerplate 2 cannot be used in older OS,
 just that we'll ensure compatibility with the ones mentioned above.*
 
 ## Screenshots
 
 ### Installation Step 1 - Android
 
-![Installation Step 1 - Android](http://cdn.joomgap.com/images/JGBoilerplate/JGBoilerplate-1-install.jpg)
-
 ### Installation Step 2 - Android
 
-![Installation Step 2 - Android](http://cdn.joomgap.com/images/JGBoilerplate/JGBoilerplate-2-install.jpg)
-
 ### Welcome screen - Android
-
-![Welcome screen - Android](http://cdn.joomgap.com/images/JGBoilerplate/JGBoilerplate-3-start.jpg)
 
 ## License
 
