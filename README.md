@@ -113,9 +113,15 @@ just that we'll ensure compatibility with the ones mentioned above.*
 
 ### Installation Step 1 - Android
 
+![Installation Step 1 - Android](http://cdn.joomgap.com/images/JGBoilerplate2/JGBoilerplate2-1.jpg)
+
 ### Installation Step 2 - Android
 
+![Installation Step 2 - Android](http://cdn.joomgap.com/images/JGBoilerplate2/JGBoilerplate2-2.jpg)
+
 ### Welcome screen - Android
+
+![Welcome screen - Android](http://cdn.joomgap.com/images/JGBoilerplate2/JGBoilerplate2-3-start.jpg)
 
 ## License
 
