@@ -69,12 +69,6 @@ This is a checklist of security items to evaluate before publishing an app:
 	- $logProvider.debugEnabled(false);
 	- $compileProvider.debugInfoEnabled(false);
 	
-### Joomla and Cross-Origin Resource Sharing (CORS)
-
-The same security points have to be evaluated to allow access from a different security domain that the source site domain.
-
-JG Boilerplate opens connections via [JSON-P](http://en.wikipedia.org/wiki/JSONP) to standard Joomla! sites. In [JoomGap Simple Library](https://github.com/JoomGap/JGSimple), connections are handled with [AngularJS $resource](https://docs.angularjs.org/api/ngResource/service/$resource).
-
 ## Features
 
 * Cordoba/PhoneGap mobile application.
@@ -85,25 +79,40 @@ JG Boilerplate opens connections via [JSON-P](http://en.wikipedia.org/wiki/JSONP
   * AngularJS 2 - Beta
   * Ionic Framwork 2 - Beta
   * [JoomGap Simple Library](https://github.com/JoomGap/JGSimple)
-  * awesome-typescript-loader
-  * es6-promise
+  * @angular
+  * del
   * es6-shim
+  * gulp
+  * gulp-watch
+  * ionic-angular
+  * ionic-gulp-browserify-es2015
+  * ionic-gulp-fonts-copy
+  * ionic-gulp-html-copy
+  * ionic-gulp-sass-build
+  * ionic-gulp-scripts-copy
+  * ionic-native
   * ionicons
+  * libs
   * reflect-metadata
+  * run-sequence
   * rxjs
-  * strip-sourcemap-loader
-  * typescript
-  * zone.js
+  * zone.js  
 
 ## Useful Commands
 
 Start a local development server for app dev/testing.
 
 	ionic serve	
+    
+### Gulp tasks
+
+	gulp build	
+    
+	gulp server    
 
 ## Mobile operating system support
 
-* Android 4 and 5
+* Android 5 and 6
 * Apple iOS 8 and 9
 
 *This doesn't mean that JoomGap Boilerplate 2 cannot be used in older OS,
