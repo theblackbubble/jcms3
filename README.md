@@ -15,20 +15,18 @@ way that you want.
 
 Choose one of the following options:
 
-1. Download the latest stable release from
-   [joomgap.com](http://www.joomgap.com/joomgap-boilerplate.html).
-2. Clone the git repo — `git clone
+1. Clone the git repo — `git clone
    https://github.com/JoomGap/JGBoilerplate2.git` - and checkout the
    [tagged release](https://github.com/JoomGap/JGBoilerplate2/releases)
    you'd like to use.
-3. Create a new App in [PhoneGap build](https://build.phonegap.com).
-4. Build and download APK (Android) or IPA (iOS) file.
-5. Copy the file to your mobile phone and install it.
-6. Have fun!
-
-	NOTE: node_modules folder is not included. It must be copied from other Ionic 2 project. For instance:
-	
-	ionic start cutePuppyPics --v2
+2. Initialize the require node modules `npm install`
+3. Build your local scripts and test
+    1. `gulp scripts`
+    2. `gulp serve`
+4. Create a new App in [PhoneGap build](https://build.phonegap.com).
+5. Build and download APK (Android) or IPA (iOS) file.
+6. Copy the file to your mobile phone and install it.
+7. Have fun!
 
 ## How to integrate JG Boilerplate 2 with Joomla! CMS
 
