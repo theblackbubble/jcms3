@@ -1,6 +1,10 @@
-# [JoomGap Boilerplate 2](http://www.joomgap.com/)
+## [JoomGap Boilerplate 2 Beta](http://www.joomgap.com/)
 
-A JoomGap starter project to create a hybrid mobile app for Joomla! CMS, powered by Cordova/PhoneGap, AngularJS 2 and Ionic 2.
+JGBoilerplate 2: the next-generation JoomGap app template
+
+A JoomGap starter project to create a hybrid mobile app for Joomla! CMS, powered by powered by AngularJS 2 and Ionic 2 Beta.
+
+Includes: JoomGap Simple Library, awesome-typescript-loader, es6-promise, es6-shim, ionicons, reflect-metadata, rxjs, strip-sourcemap-loader, typescript and zone.js.
 
 This project is the product of many years of iterative development and
 combined community knowledge from open source projects. It does not impose a specific development
@@ -15,57 +19,18 @@ way that you want.
 
 Choose one of the following options:
 
-1. Clone the git repo — `git clone
-   https://github.com/JoomGap/JGBoilerplate2.git` - and checkout the
-   [tagged release](https://github.com/JoomGap/JGBoilerplate2/releases)
-   you'd like to use.
-2. Initialize the require node modules `npm install`
-3. Build your local scripts and test
-    1. `gulp scripts`
-    2. `gulp serve`
-4. Create a new App in [PhoneGap build](https://build.phonegap.com).
-5. Build and download APK (Android) or IPA (iOS) file.
-6. Copy the file to your mobile phone and install it.
-7. Have fun!
+1. Download the latest stable release from
+   [joomgap.com](http://www.joomgap.com/more/downloads/joomgap-boilerplate-2.html).
+2. Or, clone the git repo — `git clone
+   https://github.com/JoomGap/JGBoilerplate2.git`
+3. Create a new App in [PhoneGap build](https://build.phonegap.com).
+4. Build and download APK (Android) or IPA (iOS) file.
+5. Copy the file to your mobile phone and install it.
+6. Have fun!
 
-## How to integrate JG Boilerplate 2 with Joomla! CMS
+## How to integrate JG Boilerplate with Joomla! CMS
 
-JG Boilerplate 2 includes [JoomGap Simple Library](https://github.com/JoomGap/JGSimple) to integrate Joomla! CMS.
-
-A call to Joomla! can be simply implemented in this way:
-
-	...
-	
-## Concerning to security measures
-
-There are multiple security measures on browsers and server to prevent abuse. 
-
-In a Cordoba/PhoneGap mobile app, a mobile brower speaks with a web server with Joomla! CMS. Then, there are at least three security layers:
-
-- Mobile browser
-- Web server
-- Joomla! CMS
-
-> JG Boilerplater 2 is mainly oriented for development. So, a permissive security policy has been implemented.
-
-### Production security policy
-
-This is a checklist of security items to evaluate before publishing an app:
-
-- Latest Cordoba/PhoneGap version
-- Required plugins
-- android:debuggable="false", to disable Android debugging
-- Required device permissions
-- [HTTP access control (CORS)](http://www.html5rocks.com/en/tutorials/cors/)
-	- access origin
-- [Whitelist policy](https://github.com/apache/cordova-plugin-whitelist#cordova-plugin-whitelist)	
-	- allow-intent
-	- allow-navigation
-	- allow-intent 
-- [Content-Security-Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy/)
-- AngularJS
-	- $logProvider.debugEnabled(false);
-	- $compileProvider.debugInfoEnabled(false);
+    TO DO -  Waiting for Angular 2 and Ionic 2 stable releases
 	
 ## Features
 
@@ -74,46 +39,23 @@ This is a checklist of security items to evaluate before publishing an app:
   * Cordoba/PhoneGap project
   * PhoneGap (iOS / Android / Windows)
   * [PhoneGap build](https://build.phonegap.com)-ready configuration
-  * AngularJS 2 - Beta
-  * Ionic Framwork 2 - Beta
-  * [JoomGap Simple Library](https://github.com/JoomGap/JGSimple)
-  * @angular
-  * del
-  * es6-shim
-  * gulp
-  * gulp-watch
-  * ionic-angular
-  * ionic-gulp-browserify-es2015
-  * ionic-gulp-fonts-copy
-  * ionic-gulp-html-copy
-  * ionic-gulp-sass-build
-  * ionic-gulp-scripts-copy
-  * ionic-native
-  * ionicons
-  * libs
-  * reflect-metadata
-  * run-sequence
-  * rxjs
-  * zone.js  
+  * AngularJS 2 Beta
+  * *[JoomGap Simple Library 2](https://github.com/JoomGap/JGSimple2)*
+  * Ionic Framework 2 Beta
+  * ngCordova
 
 ## Useful Commands
 
 Start a local development server for app dev/testing.
 
 	ionic serve	
-    
-### Gulp tasks
-
-	gulp build	
-    
-	gulp server    
-
+	
 ## Mobile operating system support
 
 * Android 5 and 6
 * Apple iOS 8 and 9
 
-*This doesn't mean that JoomGap Boilerplate 2 cannot be used in older OS,
+*This doesn't mean that JoomGap Boilerplate cannot be used in older OS,
 just that we'll ensure compatibility with the ones mentioned above.*
 
 ## Screenshots
@@ -133,3 +75,19 @@ just that we'll ensure compatibility with the ones mentioned above.*
 ## License
 
 The code is available under the [GNU GENERAL PUBLIC LICENSE Version 3](LICENSE).
+
+## Feedback
+
+We welcome feedback! Leave a comment by clicking the icon in upper right corner of the banner.
+
+* [We are always open for a quick chat!](http://www.joomgap.com/more/contact-us.html)
+* [Facebook](https://twitter.com/joomgap)
+* [Twitter](https://www.facebook.com/joomgap)
+* [RSS](http://www.joomgap.com/more/blog.feed?type=rss)
+* Post issues and pull requests on JoomGap github repositories.
+
+## Copyright
+
+Copyright © 2007-2016 [Extly Extensions](http://www.extly.com/) - All Rights Reserved.
+
+Joomla! name is used under a limited license from Open Source Matters in the United States and other countries. Extly.com is not affiliated with or endorsed by Open Source Matters or the Joomla! project.
