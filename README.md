@@ -1,6 +1,4 @@
-## [JoomGap Boilerplate 2 Beta](http://www.joomgap.com/)
-
-JGBoilerplate 2: the next-generation JoomGap app template
+# [JoomGap Boilerplate 2 Beta](http://www.joomgap.com/starters.html)
 
 A JoomGap starter project to create a hybrid mobile app for Joomla! CMS, powered by powered by AngularJS 2 and Ionic 2 Beta.
 
@@ -55,7 +53,7 @@ Start a local development server for app dev/testing.
 * Android 5 and 6
 * Apple iOS 8 and 9
 
-*This doesn't mean that JoomGap Boilerplate cannot be used in older OS,
+*This doesn't mean that it cannot be used in older OS,
 just that we'll ensure compatibility with the ones mentioned above.*
 
 ## Screenshots
